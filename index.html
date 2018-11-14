@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Gitlab / Github Pages</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="src/css/swiper.min.css">
+    <link rel="stylesheet" href="src/css/materialize.min.css">
+    <link rel="stylesheet" href="src/css/style.css">
+
+</head>
+<body>
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="row">
+                    <div class="col m12 s12 xs12" id="spacer">
+                        <h1>Páginas de Github & Gitlab</h1>
+                    </div>
+                    <div class="col m12 s12 xs12">
+                        <span class="right">Rodrigo Boet</span>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="row">
+                    <div class="col m12 s12 xs12">
+                        <h2>¿Qué son?</h2><hr>
+                        <p>
+                            Las páginas de Github y Gitlab son un servicio <br>
+                            gratuito que permite a los usuarios a través de los repositorios <br>
+                            que utiliza servir archivos html, con css y javascript
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="row">
+                    <div class="col m12 s12 xs12">
+                        <h2>¿Para qué sirven?</h2><hr>
+                        <p>
+                            Servir de manera gratuita cualquier cosa que pueda ser <br>
+                            mostrada mediante páginas web.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="row">
+                    <div class="col m12 s12 xs12">
+                        <h2>¿Qué uso se les puede dar?</h2><hr>
+                        <ul class="collection">
+                            <li class="collection-item">Mostrar prototipos no funcionales</li>
+                            <li class="collection-item">Servir documentación de proyectos</li>
+                            <li class="collection-item">Servir pruebas de plugins</li>
+                            <li class="collection-item">Montar el frontend de proyectos</li>
+                            <li class="collection-item">Infinitas posibilidades más...</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="row">
+                    <div class="col m12 s12 xs12">
+                        <h2>¿Cómo funcionan?</h2><hr>
+                        <p>
+                            Técnicamente la funcionalidad es servir los archivos en el <br>
+                            repositorio, tener el respectivo <b>index.html</b> en la ruta necesaria <br>
+                            y usar rutas relativas en todo el html
+                        </p>
+                    </div>
+                </div></div>
+            <div class="swiper-slide">
+                <div class="row">
+                    <div class="col m12 s12 xs12">
+                        <div class="col m6 s6 xs6">
+                            <h2>Gitlab Pages</h2>
+                        </div>
+                        <div class="col m6 s6 xs6">
+                            <h2>Github Pages</h2>
+                        </div>
+                        <div class="col m6 s6 xs6">
+                            <ul class="collection">
+                                <li class="collection-item">Requiere un archivo de configuración</li>
+                                <li class="collection-item">Utiliza CI visible para el despliegue</li>
+                            </ul>
+                        </div>
+                        <div class="col m6 s6 xs6">
+                            <ul class="collection">
+                                <li class="collection-item">La configuración es realizada mediante la interfaz gráfica</li>
+                                <li class="collection-item">Sólo acepta dos posibles rutas para mostrar las páginas</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="row">
+                    <div class="col m12 s12 xs12">
+                        <h2>¿Cuál es mejor?</h2><hr>
+                        <p>
+                            En lineas generales cumplen el mismo cometido, entonces <br>
+                            ¿Qué hace mejor a una sobre la otra? <br>
+                            ¿Que gitlab es más configurable, que github es más sencillo? <br>
+                            ¿Hacer un archivo de integración continua es más díficil?
+                        </p>
+                    </div>
+                </div></div>
+            <div class="swiper-slide">
+                <div class="row">
+                    <div class="col m12 s12 xs12">
+                        <h2>¿Cómo se usan?</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination swiper-pagination-white"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next swiper-button-white"></div>
+        <div class="swiper-button-prev swiper-button-white"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="src/js/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        slidesPerView: 1,
+        paginationClickable: true,
+        spaceBetween: 30,
+        keyboardControl: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+    });
+    </script>
+</body>
+</html>
